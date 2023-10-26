@@ -1,0 +1,15 @@
+#sideNav{
+    height: 30px;
+    width: 30px;
+}
+#img{
+    height: 180px;
+    width: 180px;
+    
+}
+#imgDiv{
+    padding-left: 25%;
+}
+#title{
+    text-align: center;
+}

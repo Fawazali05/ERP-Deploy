@@ -1,0 +1,96 @@
+.page {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contain {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    max-width: 700px;
+    width: 100%;
+}
+
+.org-info,
+.login-contain {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.org-info h3 {
+    color: #333;
+}
+
+.org-info img {
+    width: 200px; /* Adjust the logo width as needed */
+    height: 200px; /* Adjust the logo height as needed */
+    margin-bottom: 5px;
+}
+
+.login-contain h2 {
+    color: #333;
+}
+
+.input-contain {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.input-contain input,select{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-contain input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.input-contain input[type="submit"]:hover {
+    background-color: #000;
+}
+
+
+
+.forgot-pass a {
+    color: #333;
+}
+
+.navbtn
+{
+    width: 12%;
+    padding: 10px;
+    margin: 0.5%;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbtn:hover
+{
+    background-color: #000;
+    border-radius: 10px;
+    
+}
+
+.line
+{
+    border-left: 2px solid #000;
+}
+
